@@ -10,7 +10,7 @@ int main(void)
 
 	while (digit <= 9)
 	{
-		putchar (digit + '0';
+		putchar (digit + '0');
 		digit++;
 	}
 	printf("\n");
