@@ -14,7 +14,7 @@ int main(void)
 		digit1 = digit2;
 			while (digit2 <= 99)
 			{
-				if (digit1 != gigit2)
+				if (digit1 != digit2)
 				{
 					putchar((digit1 / 10) + 48);
 					putchar((digit1 % 10) + 48);
@@ -22,7 +22,7 @@ int main(void)
 					putchar((digit2 / 10) + 48);
 					putchar((digit2 % 10) + 48);
 
-					if (digit1 != 98 || digit != 98)
+					if (digit1 != 98 || digit2 != 98)
 					{
 						putchar(',');
 						putchar(' ');
@@ -32,7 +32,7 @@ int main(void)
 			}
 			digit1++;
 	}
-	putchar('\n')
+	putchar('\n');
 		return (0);
 }
 
