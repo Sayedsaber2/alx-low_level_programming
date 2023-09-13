@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * _abs - function that computes the absolute value of an integer
  *@n:task integerr  type input for function
  * Return: Always 0.
  */
