@@ -12,7 +12,7 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	else 
+	else
 		{
 			return (0);
 		}
