@@ -1,3 +1,0 @@
-n.h:4:14: error: expected identifier or ‘(’ before ‘char’
-    4 | int _putchar(char c);
-      |              
