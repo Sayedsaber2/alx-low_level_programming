@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * add - adds two integers
- * Return: Always 0.
+ * @a: frist input
+ * @b: second input
  */
 int add(int a, int b)
 {
