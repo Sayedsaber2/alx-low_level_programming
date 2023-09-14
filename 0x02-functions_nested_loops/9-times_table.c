@@ -26,8 +26,8 @@ void times_table(void)
 
 			if (prod <= 9)
 			{
-				_putchar(prod + 48);
 				_putchar(' ');
+				_putchar(prod + 48);
 			}
 			else
 			{
