@@ -1,19 +1,23 @@
 #include "main.h"
 
 /**
- * _puts - prints a string
- * @str: the string
+ * print_rev - reverses a string.
  *
- * Return: the length of the string
- */
-void _puts(char *str)
-{
-	int i = 0;
+ * @s: pointer.
+*/
 
-	while (str[i] != '\0')
+void print_rev(char *s)
+{
+	int i = 0, a;
+
+	for (a = 0; s[a] != '\0'; a++)
 	{
-		_putchar(str[i]);
 		i++;
+	}
+
+	for (i -= 1; i >= 0; i--)
+	{
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
